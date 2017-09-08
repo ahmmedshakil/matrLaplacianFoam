@@ -1,0 +1,3 @@
+matrLaplacianFoam.C
+
+EXE = $(FOAM_APPBIN)/matrLaplacianFoam

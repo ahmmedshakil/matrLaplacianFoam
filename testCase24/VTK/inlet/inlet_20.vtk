@@ -1,0 +1,33 @@
+# vtk DataFile Version 2.0
+inlet
+ASCII
+DATASET POLYDATA
+POINTS 9 float
+0 0 0 0 0.5 0 0.5 0.5 0 0.5 0
+0 0 1 0 0.5 1 0 1 0.5 0
+1 0 0 1 1 0 
+POLYGONS 4 20
+4 0 1 2 3 4 1 4 5 2 4
+3 2 6 7 4 2 5 8 6 
+CELL_DATA 4
+FIELD attributes 5
+patchID 1 4 float
+1 1 1 1 
+gradTy 1 4 float
+0 0 0 0 
+gradTx 1 4 float
+0 0 0 0 
+T 1 4 float
+573 573 573 573 
+gradTz 1 4 float
+-599.995 -599.995 -599.995 -599.995 
+POINT_DATA  9
+FIELD attributes 4
+gradTy 1 9 float
+0 0 0 0 0 0 0 0 0 
+gradTx 1 9 float
+0 0 0 0 0 0 0 0 0 
+T 1 9 float
+573 573 573 573 573 573 573 573 573 
+gradTz 1 9 float
+-599.995 -599.995 -599.995 -599.995 -599.995 -599.995 -599.995 -599.995 -599.995 

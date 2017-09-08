@@ -1,0 +1,48 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.2.2                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.2.2-9739c53ec43f
+Exec   : hyper1Foam
+Date   : Feb 22 2015
+Time   : 21:43:13
+Host   : "mgt1"
+PID    : 25138
+Case   : /home/avdeev/case
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field psi
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+
+Calculating scalar transport
+
+Courant Number mean: 0 max: 0
+Time = 0.005
+
+
+
+--> FOAM FATAL IO ERROR:
+keyword default is undefined in dictionary "/home/avdeev/case/system/fvSchemes.ddtSchemes"
+
+file: /home/avdeev/case/system/fvSchemes.ddtSchemes from line 20 to line 20.
+
+From function dictionary::lookupEntry(const word&, bool, bool) const
+in file db/dictionary/dictionary.C at line 402.
+
+FOAM exiting
+

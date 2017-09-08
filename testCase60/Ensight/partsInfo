@@ -1,0 +1,34 @@
+// summary of ensight parts
+
+ensightCells
+{
+    id              1;
+    name            "cells";
+    offset          0;
+    size            60;
+}
+
+ensightFaces
+{
+    id              2;
+    name            "walls";
+    offset          124;
+    size            100;
+}
+
+ensightFaces
+{
+    id              3;
+    name            "inlet";
+    offset          224;
+    size            6;
+}
+
+ensightFaces
+{
+    id              4;
+    name            "outlet";
+    offset          230;
+    size            6;
+}
+
